@@ -1,0 +1,47 @@
+.center {
+  text-align: center
+}
+body {
+  max-width: 1080px;
+  height: 100%;
+}
+
+h1, button {
+  font-family: 'Peralta' !important;
+}
+
+.mapdiv {
+  background-size: cover;
+}
+
+.navbar, .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: center;
+}
+
+.navbar .navbar-collapse {
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.bg-main {
+  background-image: url("../imgs/general_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #8CC63F;
+}
+.bg-compact {
+  background-image: url("../imgs/compact_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #8CC63F;
+}
+.ticket-button {
+  position: absolute;
+  right:20;
+  bottom: 20;
+}
+.v-fill {
+  height: 100%;
+}

@@ -1,0 +1,54 @@
+.jumbotron {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Sierra_Nevada_%28Spain%29.jpg/1200px-Sierra_Nevada_%28Spain%29.jpg");
+  background-size: cover;
+  height: 100%;
+}
+.center {
+  text-align: center
+}
+body {
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+h1, button {
+  font-family: 'Peralta' !important;
+}
+
+.mapdiv {
+  background-size: cover;
+}
+
+.navbar, .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: center;
+}
+
+.navbar .navbar-collapse {
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.bg-main {
+  height: 720px;
+  width: 1080px;
+  background-image: url("../imgs/general_background.png");
+  background-size: cover;
+}
+.bg-compact {
+  height: 720px;
+  width: 1080px;
+  background-image: url("../imgs/compact_background.png");
+  background-size: cover;
+}
+.ticket-button {
+  position: absolute;
+  right:20;
+  bottom: 20;
+}
+.v-fill {
+  height: 100%;
+}
