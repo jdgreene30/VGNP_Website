@@ -1,0 +1,208 @@
+.center {
+  text-align: center;
+}
+
+.center2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  height: 100%;
+  background-color: #8CC63F;
+}
+
+h1, h2, h3, h4, button {
+  font-family: 'cooper-black-std' !important;
+}
+
+h4, h5 {
+  display: inline;
+}
+
+.bg-main {
+  background-image: url("../imgs/general_background5.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #8CC63F;
+}
+
+.bg-header {
+  background-image: url("../imgs/compact_header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #8CC63F;
+  width: 100%;
+  height: 100%;
+  padding-top: 20.78125%;
+}
+
+.bg-header-about {
+  background-image: url("../imgs/compact_header2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #8CC63F;
+  width: 100%;
+  height: 100%;
+  padding-top: 20.78125%;
+}
+
+.hidden-image {
+  visibility: hidden;
+}
+
+.bg-sign {
+  background-image: url("../imgs/sign-wide.png");
+  background-size: contain;
+  background-position: center;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-color: #8CC63F;
+}
+
+.bg-map-full {
+  background-image: url("../imgs/MapFullTall.png");
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+}
+
+.bg-bulletin {
+  background-image: url("../imgs/bulletin2.png");
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+}
+
+.media-card {
+  margin: 10px;
+  margin-top: 6%;
+  background-color: transparent;
+  border: transparent;
+  flex-basis: 25%;
+  text-align: center;
+}
+.card-thumb {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+.media-row {
+  margin-right: 20px;
+  margin-left: 20px;
+  /* So that map extends to bottom of portrait viewport on Pad Pro */
+  min-height: 1366px;
+}
+.d-md-flex {
+  flex-flow: row wrap
+}
+
+iframe {
+  width: 100%;
+}
+
+.cal-card {
+  margin: 10px;
+  /* height: 225px; */
+  /* line height: 200px; */
+  padding: 10px;
+  background-color: white;
+  border: transparent;
+  text-align: center;
+}
+.cal-thumb {
+  max-height: 225px;
+  max-width: 225px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cal-buttons {
+  padding-top: 3%;
+  /* padding-right: 5%; */
+  /* margin-left: auto; */
+  text-align: left;
+}
+
+.store-card {
+  /* margin: 10px; */
+  /* margin-top: 6%; */
+  padding-top: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  background-color: transparent;
+  border: transparent;
+  flex-basis: 33.3333333%;
+  text-align: center;
+  background-image: url("../imgs/bulletin4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.store-thumb {
+  max-height: 200px;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ticket-button {
+  position: absolute;
+  right:20;
+  bottom: 20;
+}
+
+.fill-100 {
+  height: 100%;
+  width: 100%;
+}
+
+.align-ticket {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+
+.btn-select {
+  margin-bottom: 10px;
+  margin-left: 25;
+  margin-right: auto;
+}
+
+.ticket{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.max-1080 {
+  max-height: 1080px;
+}
+
+/*make dropup background transparent */
+.dropdown-menu, .dropdown-menu:hover, .dropdown-menu:active {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: transparent !important;
+}
+
+/* Sizes navbar toggle button and removes border */
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
+  border-color: transparent !important;
+  height: 50px;
+  width: 95px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn-press {
+  background-color: #28a745 !important;
+  border-color: green !important;
+  active: green !important;
+}
