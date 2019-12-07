@@ -1,10 +1,5 @@
 .center {
-  text-align: center;
-}
-
-.center2 {
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center
 }
 
 body {
@@ -12,13 +7,9 @@ body {
   background-color: #8CC63F;
 }
 
-h1, h2, h3, h4, button {
-  font-family: 'cooper-black-std' !important;
+h1, button {
+  font-family: 'cooper-black-std';
   /* font-family: 'Peralta' !important; */
-}
-
-h4, h5 {
-  display: inline;
 }
 
 .mapdiv {
@@ -42,7 +33,7 @@ h4, h5 {
 } */
 
 .bg-main {
-  background-image: url("../imgs/general_background5.png");
+  background-image: url("../imgs/general_background4lo.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #8CC63F;
@@ -65,27 +56,8 @@ h4, h5 {
   padding-top: 20.78125%;
 }
 
-.bg-header-about {
-  background-image: url("../imgs/compact_header2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #8CC63F;
-  width: 100%;
-  height: 100%;
-  padding-top: 20.78125%;
-}
-
 .hidden-image {
   visibility: hidden;
-}
-
-.bg-sign {
-  background-image: url("../imgs/sign-wide.png");
-  background-size: contain;
-  background-position: center;
-  height: 600px;
-  background-repeat: no-repeat;
-  background-color: #8CC63F;
 }
 
 .bg-map-1 {
@@ -106,98 +78,44 @@ h4, h5 {
   background-repeat: no-repeat;
 }
 .bg-map-full {
-  background-image: url("../imgs/MapFullTall.png");
-  background-size: 100%, 100%;
+  background-image: url("../imgs/MapFull.png");
+  background-size: contain;
   background-repeat: no-repeat;
-}
-.bg-bulletin {
-  background-image: url("../imgs/bulletin2.png");
-  background-size: 100%, 100%;
-  background-repeat: no-repeat;
+  /* background-color: #000000; */
+  /* margin-right: 10px; */
 }
 
-/* .media-height {
-  height: 110%;
-  margin-bottom: 0px;
-} */
-.btn-select {
-  margin-bottom: 10px;
-  margin-left: 25;
-  margin-right: auto;
+.media-height {
+  height: 1605px;
 }
-.media-card {
+
+.card, .media-card {
   margin: 10px;
   margin-top: 6%;
   background-color: transparent;
   border: transparent;
+  /* flex: 1; */
   flex-basis: 25%;
-  text-align: center;
 }
-.card-thumb {
-  max-width: 300px;
+img {
+  /* max-height: 250px; */
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
   margin-left: auto;
   margin-right: auto;
 }
-img {
-  height: 100%;
-  width: 100%;
-}
-.media-row {
-  margin-right: 20px;
-  margin-left: 20px;
-  /* So that map extends to bottom of portrait viewport on Pad Pro */
-  min-height: 1366px;
-}
+/* .lightbox-dim {
+  height: 250px;
+  width: 250px;
+} */
 .d-md-flex {
   flex-flow: row wrap
 }
 
 iframe {
-  width: 100%;
-}
-
-.cal-card {
-  margin: 10px;
-  /* height: 225px; */
-  /* line height: 200px; */
-  padding: 10px;
-  background-color: white;
-  border: transparent;
-  text-align: center;
-}
-.cal-thumb {
-  max-height: 225px;
-  max-width: 225px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.cal-buttons {
-  padding-top: 3%;
-  /* padding-right: 5%; */
-  /* margin-left: auto; */
-  text-align: left;
-}
-
-.store-card {
-  /* margin: 10px; */
-  /* margin-top: 6%; */
-  padding-top: 45px;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 100%;
-  background-color: transparent;
-  border: transparent;
-  flex-basis: 33.3333333%;
-  text-align: center;
-  background-image: url("../imgs/bulletin4.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.store-thumb {
-  max-height: 200px;
-  max-width: 200px;
-  margin-right: auto;
-  margin-left: auto;
+  height: 250px;
+  object-fit: contain;
 }
 
 .ticket-button {
@@ -247,16 +165,6 @@ iframe {
   width: 95px;
 }
 
-.text-right {
-  text-align: right;
-}
-
-.btn-press {
-  background-color: #28a745 !important;
-  border-color: green !important;
-  active: green !important;
-}
-
 /* .ticket{
   height: 150px;
 }
@@ -276,9 +184,4 @@ iframe {
     .ticket >img {
          height: 50px;
     }
-} */
-/* @include media-breakpoint-down(md) {
-  .cal-card {
-    text-align: left;
-  }
 } */

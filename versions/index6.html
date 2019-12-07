@@ -2,11 +2,9 @@
 <html>
   <head>
     <title>VGNP - Home</title>
-    <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Adobe font import: Cooper Black -->
+    <link href='https://fonts.googleapis.com/css?family=Peralta' rel='stylesheet'>
     <link rel="stylesheet" href="https://use.typekit.net/bpd1mrj.css">
-    <!-- Local stylesheet link -->
     <link rel="stylesheet" href="./css/styles.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -15,6 +13,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+
       gtag('config', 'UA-153147629-1');
     </script>
 
@@ -22,8 +21,28 @@
 
   <body class="bg-main">
 
+    <!-- HEADING -->
     <div class="container-fluid">
-      <!-- Ticket dropup -->
+        <!-- CONTENT -->
+      <!-- <div class="dropup align-bottom">
+        <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">
+          Admit One <span class="up-caret"></span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="./calendar.html"><button type="button" class="btn btn-warning"> SHOWS </button></a>
+          <a class="dropdown-item" href="./discog.html"><button type="button" class="btn btn-warning"> MEDIA </button></a>
+          <a class="dropdown-item" href="./blog.html"><button type="button" class="btn btn-warning"> NEWS </button></a>
+          <a class="dropdown-item" href="./store.html"><button type="button" class="btn btn-warning"> MERCH </button></a>
+          <a class="dropdown-item" href="./contact.html"><button type="button" class="btn btn-warning"> CONTACT </button></a>
+        </div>
+        <ul class="dropdown-menu">
+          <li><a href="www.google.com">SHOWS</a></li>
+          <li><a href="">MEDIA<a></li>
+          <li><a href="">NEWS</a></li>
+          <li><a href="">MERCH</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div> -->
       <div class="dropup align-ticket">
         <div class="row">
             <div class="col-3">
@@ -31,8 +50,8 @@
                 <img class="ticket" src="imgs/ticket.png" data-toggle="dropdown">
                 <ul class="dropdown-menu center">
                   <li><a class="dropdown-item" href="./calendar.html"><button type="button" class="btn btn-warning"> SHOWS </button></a></li>
-                  <li><a class="dropdown-item" href="./media.html"><button type="button" class="btn btn-warning"> MEDIA </button></a></li>
-                  <li><a class="dropdown-item" href="./about.html"><button type="button" class="btn btn-warning"> ABOUT </button></a></li>
+                  <li><a class="dropdown-item" href="./discog.html"><button type="button" class="btn btn-warning"> MEDIA </button></a></li>
+                  <li><a class="dropdown-item" href="./blog.html"><button type="button" class="btn btn-warning"> NEWS </button></a></li>
                   <li><a class="dropdown-item" href="./store.html"><button type="button" class="btn btn-warning"> MERCH </button></a></li>
                   <li><a class="dropdown-item" href="./contact.html"><button type="button" class="btn btn-warning"> CONTACT </button></a></li>
                 </ul>
@@ -41,12 +60,21 @@
             </div>
         </div>
       </div>
+      <!-- <div class="align-ticket">
+        <div class="row">
+            <div class="col-3">
+              <div class="ticket">
+                <a href="store.html"><img class="ticket" src="imgs/ticket.png"></a>
+              </div>
+              <div class="center">(Click to ENTER)</div>
+            </div>
+        </div>
+      </div> -->
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
   </body>
 
 </html>

@@ -5,35 +5,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Peralta' rel='stylesheet'>
     <link rel="stylesheet" href="https://use.typekit.net/bpd1mrj.css">
-    <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/cupertino/jquery-ui.css"> -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/cupertino/jquery-ui.css">
     <link href="./css/lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-
-    <title> VGNP - Contact </title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Adobe font: Cooper Black -->
-    <link rel="stylesheet" href="https://use.typekit.net/bpd1mrj.css">
-    <!-- Local stylesheet -->
-    <link rel="stylesheet" href="./css/styles.css">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153147629-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-153147629-1');
-    </script>
+    <!-- <link rel="stylesheet" href="./css/media.css"> -->
   </head>
 
+  <!-- <body class="bg-compact"> -->
   <body>
 
-    <!-- Header -->
+    <!-- header -->
     <div class="bg-header">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-md justify-content-center">
+      <nav class="navbar navbar-expand-md navbar-light justify-content-center">
         <img class="navbar-toggler" src="imgs/ticket.png" data-toggle="collapse" data-target="#collapsibleNavbar">
         <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar" data-spy="affix" data-offset-top="105">
           <ul class="navbar-nav center">
@@ -47,42 +31,99 @@
                 <a class="nav-link" href="./media.html"><button type="button" class="btn btn-warning active"> MEDIA </button></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html"><button type="button" class="btn btn-warning"> ABOUT </button></a>
+                <a class="nav-link" href="./blog.html"><button type="button" class="btn btn-warning"> NEWS </button></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./store.html"><button type="button" class="btn btn-warning"> MERCH </button></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contact.html"><button type="button" class="btn btn-warning"> CONTACT </button></a>
+                <a class="nav-link" href=""><button type="button" class="btn btn-warning"> CONTACT </button></a>
               </li>
           </ul>
         </div>
       </nav>
     </div>
 
-    <!-- Content -->
-    <div class="row media-row media-height">
-      <!-- Filter buttons; had them centered at some point, but cannot re-align(?) -->
-      <div class="col-md-2">
-        <!-- Another row and column allowed me to have the filter buttons on one line for small devices, but stacked for wide ones -->
-        <div class="row center">
-          <div class="col-md">
-            <button type="button" class="btn btn-success btn-select" id="a"> MUSIC </button>
+    <!-- <div class="row media-height">
+      <div class="col-md-2 center">
+        <p><button  class="btn btn-success" id="a"> ALBUMS </button></p>
+        <p><button type="button" class="btn btn-success" id="v"> VIDEOS </button></p>
+        <p><button type="button" class="btn btn-success" id="i"> IMAGES </button></p>
+        <p><button type="button" class="btn btn-success" id="all"> ALL </button></p>
+      </div>
+      <div class="col-md-9 bg-map-full">
+        <div class="d-md-flex justify-content-around" id="basket">
+          <div class="card media-card a">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album (2017) </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card a">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card v">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="d-md-flex justify-content-around" id="basket">
+          <div class="card media-card v">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card i">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card i">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="row media-row">
+      <div class="col-md-2 center">
+        <div class="row">
+          <div class="col-md-2">
+            <button type="button" class="btn btn-success btn-select" id="a"> ALBUMS </button>
             <button type="button" class="btn btn-success btn-select" id="v"> VIDEOS </button>
             <button type="button" class="btn btn-success btn-select" id="i"> IMAGES </button>
             <button type="button" class="btn btn-success btn-select" id="all"> ALL </button>
           </div>
         </div>
       </div>
-      <!-- Content display area-->
-      <!-- The background image scales with page, but couldn't isolate horizontal scaling within a background image; made map image extremely tall to compensate, however this can be seen in sub-md widths with more than 2-3 cards -->
       <div class="col-md-10 bg-map-full">
         <div class="d-md-flex justify-content-around" id="basket">
-          <!-- Album thumbnails open a lightbox group with only album cover; button opens bandcamp page in another window/tab -->
           <div class="card media-card a">
             <a href="imgs/vgnp-cover.jpg" data-lightbox="group2" data-title="VGNP Self-Titled Album Cover">
               <div class="card-thumb">
-                <img src="imgs/vgnp-cover.jpg" alt="VGNP">
+                <img src="imgs/vgnp-cover.jpg" alt="something">
               </div>
             </a>
             <div class="card-body center">
@@ -94,7 +135,7 @@
           <div class="card media-card a">
             <a href="imgs/monotonous-cover.jpg" data-lightbox="group2" data-title="Monotonous Activity Single Cover">
               <div class="card-thumb">
-                <img src="imgs/monotonous-cover.jpg" alt="Monotonous Activity">
+                <img src="imgs/monotonous-cover.jpg" alt="Curiosity Shop">
               </div>
             </a>
             <div class="card-body center">
@@ -115,7 +156,6 @@
               <a href="https://vgnp.bandcamp.com/album/the-curiosity-shop" target="_blank"><button class="btn btn-warning">Listen</button></a>
             </div>
           </div>
-          <!-- Videos start muted in Chrome(?); weird top margin when cllapsed(?); button takes you to the video on YouTube -->
           <div class="card media-card v">
             <div class="card-thumb">
               <iframe src="https://www.youtube-nocookie.com/embed/hEbojd6DnBI?controls=0" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
@@ -146,16 +186,16 @@
               <a href="https://www.youtube.com/watch?v=vhJfvrsKaDs" target="_blank"><button class="btn btn-warning">Watch</button></a>
             </div>
           </div>
-          <!-- I had to omit the button for the image cards because inserting a second lightbox link made the image show twice in the lightbox -->
           <div class="card media-card i">
             <div class="card-thumb">
-              <a href="imgs/vgnp-reading.jpg" data-lightbox="group1" data-title="What a well-read band!">
+              <a href="imgs/vgnp-reading.jpg" data-lightbox="group1" data-title="What a well-read band">
                 <img src="imgs/vgnp-reading.jpg" alt="VGNP Reading">
               </a>
             </div>
             <div class="card-body center">
-              <h5 class="card-title"> What a well-read band! </h5>
+              <h5 class="card-title"> What a well-read band </h5>
               <p class="card-text"> Image </p>
+              <a href="https://vgnp.bandcamp.com/album/the-curiosity-shop" target="_blank"><button class="btn btn-warning">View</button></a>
             </div>
           </div>
           <div class="card media-card i">
@@ -167,6 +207,7 @@
             <div class="card-body center">
               <h5 class="card-title"> VGNP @ Neck of the Woods </h5>
               <p class="card-text"> Image </p>
+              <a href="https://vgnp.bandcamp.com/album/the-curiosity-shop" target="_blank"><button class="btn btn-warning">View</button></a>
             </div>
           </div>
           <div class="card media-card i">
@@ -178,6 +219,7 @@
             <div class="card-body center">
               <h5 class="card-title"> 2019 Pretty Good Band Award </h5>
               <p class="card-text"> Image </p>
+              <a href="https://vgnp.bandcamp.com/album/the-curiosity-shop" target="_blank"><button class="btn btn-warning">View</button></a>
             </div>
           </div>
           <div class="card media-card i">
@@ -189,6 +231,7 @@
             <div class="card-body center">
               <h5 class="card-title"> VGNP @ Lake Merritt </h5>
               <p class="card-text"> Image </p>
+              <a href="https://vgnp.bandcamp.com/album/the-curiosity-shop" target="_blank"><button class="btn btn-warning">View</button></a>
             </div>
           </div>
           <div class="card media-card i">
@@ -200,6 +243,7 @@
             <div class="card-body center">
               <h5 class="card-title"> VGNP @ a place we forgot </h5>
               <p class="card-text"> Image </p>
+              <a href="https://vgnp.bandcamp.com/album/the-curiosity-shop" target="_blank"><button class="btn btn-warning">View</button></a>
             </div>
           </div>
           <div class="card media-card i">
@@ -211,17 +255,84 @@
             <div class="card-body center">
               <h5 class="card-title"> VGNP Halloween 2019 </h5>
               <p class="card-text"> Image </p>
+              <a href="https://vgnp.bandcamp.com/album/the-curiosity-shop" target="_blank"><button class="btn btn-warning">View</button></a>
             </div>
           </div>
+
+          <!-- <div class="card media-card a">
+            <img src="imgs/vgnp-cover.jpg" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card a">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card v">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card v">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card v">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card i">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card i">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div>
+          <div class="card media-card i">
+            <img src="https://via.placeholder.com/250" alt="something">
+            <div class="card-body">
+              <h5 class="card-title"> Vincent Gargiulo National Park </h5>
+              <p class="card-text"> Debut album released in 2017 </p>
+              <button class="btn btn-danger">Buy</button>
+            </div>
+          </div> -->
         </div>
       </div>
     </div>
 
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src="./js/lightbox.js"></script>
-    <script src="js/functions.js"></script>
+    <script src="js/media.js"></script>
   </body>
 
 </html>
